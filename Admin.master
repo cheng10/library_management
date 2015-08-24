@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<%@ Register src="Control/AdminLeft.ascx" tagname="AdminLeft" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            text-align: center;
+        }
+        .auto-style11 {
+            width: 261px;
+            height: 55px;
+        }
+        .auto-style12 {
+            height: 55px;
+        }
+        .auto-style13 {
+            width: 261px;
+            height: 518px;
+        }
+        .auto-style14 {
+            height: 518px;
+        }
+        .auto-style22 {
+            font-size: small;
+        }
+        .auto-style23 {
+            height: 78px;
+            font-size: 40pt;
+            color: #FF9900;
+            text-align: center;
+            font-weight: bold;
+        }
+        .auto-style24 {
+            width: 179px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1" style="width: 1024px; height: 679px; background-image: url('/Images/is098r49u%20(1).jpg');">
+            <tr>
+                <td class="auto-style23" colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style11" style="background-color: #FFFF99">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                    </asp:SiteMapPath>
+                </td>
+                <td class="auto-style12" style="background-color: #FFFF99">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style13">
+                    <table class="auto-style1">
+                        <tr>
+                            <td class="auto-style24">&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style24">
+                                <uc1:AdminLeft ID="AdminLeft1" runat="server" />
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style24">&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="auto-style14">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2" colspan="2" style="background-color: #FFFF99"><span class="auto-style22">Copyright XuTianLei ChenCheng etc. 2014</span><br class="auto-style22" />
+                    <span class="auto-style22">Faculty of Computer Science</span><br class="auto-style22" />
+                    <span class="auto-style22">Jinling College</span></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

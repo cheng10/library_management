@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="登录"  url="~/Login.aspx">
+        <siteMapNode title="读者页" url="~/Reader/ReaderScreen.aspx" >
+          <siteMapNode tile="还书" url="~/Reader/BackBook.aspx"/>
+          <siteMapNode title="登出" url="~/Reader/Logout.aspx"/>
+          <siteMapNode title="更改密码" url="~/Reader/ResetPassword.aspx"/>
+          <siteMapNode title="显示个人信息" url="~/Reader/ShowPersonalInfo.aspx"/>
+          <siteMapNode tile="查询图书" url="~/Reader/QueryBook.aspx"/>
+        </siteMapNode>
+        <siteMapNode title="管理页" url="~/Admin/AdminScreen.aspx"> 
+          <siteMapNode title="增加读者" url="~/Admin/AddReader.aspx"/>
+          <siteMapNode title="借书人" url="~/Admin/BorrowMan.aspx"/>
+          <siteMapNode title="删除读者" url="~/Admin/DeleteReader.aspx"/>
+          <siteMapNode title="更新图书" url="~/Admin/UpdateBook.aspx"/>
+          <siteMapNode title="更新读者信息" url="~/Admin/UpdateReaderInfo.aspx"/>
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>
